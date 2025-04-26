@@ -1,0 +1,24 @@
+mycounter: 1
+headless: False
+mqtt:
+  broker: 10.42.0.1
+  port: 1883
+  pw: gui
+  user: gui
+servo:
+  iopin: 5
+  min_duty: 2.5
+  max_duty: 10.5
+illum:
+  brightness_autofocus: 0.1
+  brightness_detect: 0.1
+  brightness_measure: 0.1
+  flashtime: 1.0
+detection:
+  method: images
+  min_mean_difference: 5.0
+  min_area_difference: 25000.0
+  crop_x: 400
+  crop_y: 0
+  crop_w: 1600
+  crop_h: 1080
